@@ -1,3 +1,38 @@
 /* ---------------------------------------------------------------------
  Fonts
 ------------------------------------------------------------------------ */
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url('../media/fonts/roboto-bold.woff2') format('woff2'), /* Modern Browsers */
+       url('../media/fonts/roboto-bold.woff') format('woff'), /* Legacy */
+       url('../media/fonts/roboto-bold.ttf') format('truetype'); /* Legacy */
+}
+
+@font-face {
+  font-family: 'Roboto Light';
+  src: url('../media/fonts/roboto-light.woff2') format('woff2'),
+       url('../media/fonts/roboto-light.woff') format('woff'),
+       url('../media/fonts/roboto-light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Medium';
+  src: url('../media/fonts/roboto-medium.woff2') format('woff2'),
+       url('../media/fonts/roboto-medium.woff') format('woff'),
+       url('../media/fonts/roboto-medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('../media/fonts/roboto-regular.woff2') format('woff2'),
+       url('../media/fonts/roboto-regular.woff') format('woff'),
+       url('../media/fonts/roboto-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url('../media/fonts/roboto-thin.woff2') format('woff2'),
+       url('../media/fonts/roboto-thin.woff') format('woff'),
+       url('../media/fonts/roboto-thin.ttf') format('truetype');
+}
