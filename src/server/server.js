@@ -86,7 +86,6 @@ function matchRoutes(req, res) {
     } else if (props) {
       // get the page title
       let page_title = DocumentTitle.rewind();
-      let gtm_id = process.env.GTM_ID;
       let protocol = (process.env.IS_SECURE === 'true') ? 'https://' : 'http://';
       let asset_path = getAssetPath();
       let version = getAssetVersion();
@@ -97,7 +96,6 @@ function matchRoutes(req, res) {
         asset_path,
         version,
         protocol,
-        gtm_id,
         page_title,
         newrelic,
         markup
