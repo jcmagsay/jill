@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Hi, I'm Jill. I'm a Senior Software Engineer in Boulder, CO.">
+    <title><%- page_title %></title>
+    <link rel="stylesheet" href="<%- asset_path %>/styles/app.css<%- version %>" />
+    <link rel="stylesheet" href="<%- asset_path %>/styles/print.css<%- version %>" />
+    <% include ../partials/favicon %>
+  </head>
+  <body>
+    <div id="app" class="app">
+      <div><%- markup %></div>
+    </div>
+  </body>
+</html>
