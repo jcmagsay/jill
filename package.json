@@ -12,6 +12,8 @@
   "scripts": {
     "build": "gulp build",
     "clean": "gulp clean",
+    "deploy:assets": "gulp webpack",
+    "heroku-postbuild": "npm-run-all build deploy:assets",
     "start": "babel-node src/server/server.js",
     "start:dev": "nodemon src/server/server.js --exec babel-node --config config/nodemon.json",
     "watch": "gulp watch"
